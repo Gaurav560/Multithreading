@@ -1,0 +1,36 @@
+package com.ineuron.ai;
+
+public class Consumer extends Thread {
+
+	
+	company c;
+
+	public Consumer(company c) {
+		super();
+		this.c = c;
+	}
+
+	@Override
+	public void run() 
+	{
+		
+		while (true) {
+		this.c.consume_item();
+		try 
+		{
+			Thread.sleep(2000);
+			
+		} 
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+			
+		
+		}
+			
+		
+		
+	}
+
+}

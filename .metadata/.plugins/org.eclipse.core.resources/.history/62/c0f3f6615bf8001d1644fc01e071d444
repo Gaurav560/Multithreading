@@ -1,0 +1,12 @@
+package com.ineuron.ai;
+
+public class Producer extends Thread {
+
+	@Override
+	public void run() 
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.ineuron.ai;
+
+class ThreadOperations extends Thread {
+
+	@Override
+	public void run() {
+//task for thread
+
+	}
+
+}

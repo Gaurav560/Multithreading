@@ -1,0 +1,18 @@
+package com.ineuron.ai;
+
+public class company {
+
+	int n;
+	public void produce_item(int n)
+	{
+		this.n=n;
+		System.out.println("item produced "+this.n);
+		
+	}
+	
+	
+	public int consume_item() {
+		System.out.println("consumed ::"+this.n);
+		return  this.n;
+	}
+}

@@ -1,0 +1,22 @@
+package com.ineuron.ai;
+
+public class Consumer extends Thread {
+
+	
+	company c;
+ public Consumer(company c) {
+		// TODO Auto-generated constructor stub
+	}(company c) {
+		super();
+		this.c = c;
+	}
+	@Override
+	public void run() 
+	{
+		
+			
+		
+		
+	}
+
+}

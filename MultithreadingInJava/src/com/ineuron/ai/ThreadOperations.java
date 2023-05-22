@@ -1,0 +1,25 @@
+package com.ineuron.ai;
+
+class ThreadOperations {
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		System.out.println("Program started");
+
+		int x = 56 + 54;
+		System.out.println("add is::" + x);
+	
+		String tname = Thread.currentThread().getName();
+		System.out.println("this is the name of the main thread which is getting executed " + tname);
+try {
+	Thread.sleep(5000);
+} catch (Exception e) {
+	e.printStackTrace();
+}
+Thread.currentThread().setName("fvee");
+System.out.println(Thread.currentThread().getName());
+System.out.println(Thread.currentThread().getId());
+
+		System.out.println("Program terminated");
+	}
+
+}

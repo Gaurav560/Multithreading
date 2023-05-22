@@ -1,0 +1,11 @@
+package com.ineuron.ai;
+
+public class Consumer extends Thread {
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

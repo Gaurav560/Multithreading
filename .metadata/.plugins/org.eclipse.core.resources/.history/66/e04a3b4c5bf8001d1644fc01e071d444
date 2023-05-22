@@ -1,0 +1,20 @@
+package com.ineuron.ai;
+
+public class Consumer extends Thread {
+
+	
+	company c;
+	public Producer(company c) {
+		super();
+		this.c = c;
+	}
+	@Override
+	public void run() 
+	{
+		
+			
+		
+		
+	}
+
+}

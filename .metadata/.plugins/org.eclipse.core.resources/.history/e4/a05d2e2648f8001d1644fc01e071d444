@@ -1,0 +1,10 @@
+package com.ineuron.ai;
+
+public class MyThread implements Runnable {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

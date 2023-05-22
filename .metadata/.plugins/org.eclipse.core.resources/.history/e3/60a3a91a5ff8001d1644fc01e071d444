@@ -1,0 +1,30 @@
+package com.ineuron.ai;
+
+public class Producer extends Thread {
+
+	company c;
+	public Producer(company c) {
+		super();
+		this.c = c;
+	}
+	@Override
+	public void run() 
+	{
+		int i=1;
+		while (true) {
+		this.c.produce_item(i);
+		try 
+		{
+			Thread.sleep(2000);
+			
+		} 
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+			
+		}
+
+	}
+
+}
